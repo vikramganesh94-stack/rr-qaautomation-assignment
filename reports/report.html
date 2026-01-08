@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Playwright Test Summary Report</title>
+  <style>
+    :root { --bg:#0f172a; --panel:#111827; --text:#e5e7eb; --muted:#9ca3af; --ok:#10b981; --fail:#ef4444; --skip:#f59e0b; --accent:#60a5fa; }
+    body { margin:0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, 'Noto Sans', 'Helvetica Neue', Arial, 'Apple Color Emoji', 'Segoe UI Emoji'; background: var(--bg); color: var(--text); }
+    header { padding: 24px; border-bottom: 1px solid #1f2937; background: #0b1220; }
+    h1 { margin: 0 0 6px; font-size: 22px; }
+    .subtitle { color: var(--muted); font-size: 13px; }
+    main { padding: 24px; }
+    .grid { display: grid; grid-template-columns: repeat(4, minmax(160px, 1fr)); gap: 16px; margin: 20px 0; }
+    .card { background: var(--panel); border: 1px solid #1f2937; border-radius: 12px; padding: 16px; }
+    .card h2 { margin: 0 0 6px; font-size: 12px; color: var(--muted); font-weight: 600; letter-spacing: .4px; }
+    .big { font-size: 28px; font-weight: 700; }
+    .ok { color: var(--ok); }
+    .fail { color: var(--fail); }
+    .skip { color: var(--skip); }
+    .table { width: 100%; border-collapse: collapse; border: 1px solid #1f2937; border-radius: 12px; overflow: hidden; }
+    .table th, .table td { padding: 10px 12px; border-bottom: 1px solid #1f2937; font-size: 13px; }
+    .table th { text-align: left; background: #0b1220; color: var(--muted); font-weight: 600; }
+    .tag { display:inline-block; padding: 2px 8px; border-radius: 999px; font-size: 12px; font-weight: 600; }
+    .tag.ok { background: #052e26; color: var(--ok); }
+    .tag.fail { background: #3a0b0b; color: var(--fail); }
+    .tag.skip { background: #3a2b06; color: var(--skip); }
+    .footer { margin-top: 24px; color: var(--muted); font-size: 12px; }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .code { font-family: ui-monospace, Menlo, Consolas, 'SF Mono', monospace; font-size: 12px; background: #0b1220; padding: 2px 6px; border-radius: 6px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Playwright Test Summary Report</h1>
+    <div class="subtitle">Generated: 8/1/2026, 3:37:14 pm · Project: TMDB Discover QA · Runner: Playwright 1.41.x</div>
+  </header>
+  <main>
+    <section class="grid">
+      <div class="card"><h2>Total Cases</h2><div class="big">44</div></div>
+      <div class="card"><h2 class="ok">Passed</h2><div class="big ok">42</div></div>
+      <div class="card"><h2 class="fail">Failed</h2><div class="big fail">0</div></div>
+      <div class="card"><h2 class="skip">Skipped</h2><div class="big skip">2</div></div>
+    </section>
+
+    <section class="card">
+      <h2>Execution Details</h2>
+      <table class="table">
+        <thead>
+          <tr>
+            <th>Category</th>
+            <th>Value</th>
+            <th>Status</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>All Tests</td><td>44</td><td><span class="tag ok">42 Passed</span> · <span class="tag fail">0 Failed</span> · <span class="tag skip">2 Skipped</span></td></tr>
+          <tr><td>HTML Report</td><td>reports/html/index.html</td><td><a href="html/index.html">Open Detailed Report</a></td></tr>
+          <tr><td>JSON Report</td><td>reports/results.json</td><td><span class="tag">Artifacts</span></td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="card">
+      <h2>Failed Tests and Reasons</h2>
+      <table class="table">
+        <thead>
+          <tr>
+            <th>Project</th>
+            <th>Test</th>
+            <th>Reason</th>
+            <th>File</th>
+          </tr>
+        </thead>
+        <tbody>
+
+          <tr>
+            <td colspan="4" class="ok">No failures 🎉</td>
+          </tr>
+        </tbody>
+      </table>
+      <p class="subtitle">View traces via <span class="code">npx playwright show-trace &lt;path-to-trace.zip&gt;</span> in the <span class="code">test-results</span> folder.</p>
+    </section>
+
+    <section class="footer">
+      This summary reflects the latest execution. Re-run <span class="code">npm test</span> to update.
+    </section>
+  </main>
+</body>
+</html>

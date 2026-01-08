@@ -1,0 +1,1821 @@
+{
+  "config": {
+    "configFile": "C:\\Users\\vikra\\OneDrive\\Desktop\\RR_Project\\playwright.config.ts",
+    "rootDir": "C:/Users/vikra/OneDrive/Desktop/RR_Project/tests",
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 7
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "html",
+        {
+          "open": "never",
+          "outputFolder": "reports/html"
+        }
+      ],
+      [
+        "json",
+        {
+          "outputFile": "reports/results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "C:/Users/vikra/OneDrive/Desktop/RR_Project/test-results",
+        "repeatEach": 1,
+        "retries": 1,
+        "metadata": {
+          "actualWorkers": 7
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "C:/Users/vikra/OneDrive/Desktop/RR_Project/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.spec.ts"
+        ],
+        "timeout": 60000
+      }
+    ],
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.57.0",
+    "workers": 7,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "api\\discovery.api.spec.ts",
+      "file": "api/discovery.api.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Discovery API Validation",
+          "file": "api/discovery.api.spec.ts",
+          "line": 10,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Discover API returns valid structure for movies",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 642,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-08T10:06:06.922Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4a30f50fc58a8f7e95b7-3075b3651a1046a3abab",
+              "file": "api/discovery.api.spec.ts",
+              "line": 12,
+              "column": 3
+            },
+            {
+              "title": "Discover API respects genre filter",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 724,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-08T10:06:07.111Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4a30f50fc58a8f7e95b7-69b8e6cc2979d1c3bd58",
+              "file": "api/discovery.api.spec.ts",
+              "line": 45,
+              "column": 3
+            },
+            {
+              "title": "Discover API respects year range",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 614,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-08T10:06:07.008Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4a30f50fc58a8f7e95b7-82e3fb83a16b7d5772d0",
+              "file": "api/discovery.api.spec.ts",
+              "line": 67,
+              "column": 3
+            },
+            {
+              "title": "Discover API respects rating filter",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 3,
+                      "status": "passed",
+                      "duration": 664,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-08T10:06:07.104Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4a30f50fc58a8f7e95b7-979454b27dd9f48ceea6",
+              "file": "api/discovery.api.spec.ts",
+              "line": 91,
+              "column": 3
+            },
+            {
+              "title": "Discover API pagination works correctly",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 4,
+                      "parallelIndex": 4,
+                      "status": "passed",
+                      "duration": 938,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "buffer": "WzE1OjM2OjA4LjAwMV0gG1szMm1JTkZPG1szOW06IBtbMzZtUGFnaW5hdGlvbiB2YWxpZGF0ZWQbWzM5bQogICAgcGFnZTFDb3VudDogMjAKICAgIHBhZ2UyQ291bnQ6IDIwCg=="
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-08T10:06:07.164Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4a30f50fc58a8f7e95b7-34199564d36787c15a1b",
+              "file": "api/discovery.api.spec.ts",
+              "line": 114,
+              "column": 3
+            },
+            {
+              "title": "Search API returns relevant results",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 5,
+                      "parallelIndex": 5,
+                      "status": "passed",
+                      "duration": 645,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-08T10:06:07.062Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4a30f50fc58a8f7e95b7-5567509ea6ab06530540",
+              "file": "api/discovery.api.spec.ts",
+              "line": 143,
+              "column": 3
+            },
+            {
+              "title": "API handles invalid requests gracefully",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 6,
+                      "parallelIndex": 6,
+                      "status": "passed",
+                      "duration": 758,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-08T10:06:07.182Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4a30f50fc58a8f7e95b7-e8210d3b54a8c8ff729b",
+              "file": "api/discovery.api.spec.ts",
+              "line": 161,
+              "column": 3
+            },
+            {
+              "title": "API rate limiting returns appropriate status",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 884,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "buffer": "WzE1OjM2OjA3LjU0Ml0gG1szMm1JTkZPG1szOW06IBtbMzZtRGlzY292ZXIgQVBJIHJlc3BvbnNlIHN0cnVjdHVyZRtbMzltCiAgICBkYXRhOiB7CiAgICAgICJwYWdlIjogMSwKICAgICAgInRvdGFsX3BhZ2VzIjogNTQ1NzEKICAgIH0K"
+                        },
+                        {
+                          "buffer": "WzE1OjM2OjA4LjEzNl0gG1szMm1JTkZPG1szOW06IBtbMzZtUmF0ZSBsaW1pdGluZyB0ZXN0ZWQbWzM5bQogICAgcmVxdWVzdENvdW50OiA1Cg=="
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-08T10:06:07.592Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4a30f50fc58a8f7e95b7-d6157ac36a8d021af564",
+              "file": "api/discovery.api.spec.ts",
+              "line": 176,
+              "column": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "api\\network-intercept.spec.ts",
+      "file": "api/network-intercept.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Network Interception & Mocking",
+          "file": "api/network-intercept.spec.ts",
+          "line": 9,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Intercept and validate discover API request parameters",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 22476,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "buffer": "WzE1OjM2OjA3LjYyOV0gG1szMm1JTkZPG1szOW06IBtbMzZtWWVhciBmaWx0ZXIgYXBwbGllZBtbMzltCiAgICB5ZWFyUmFuZ2U6ICIyMDIwLTIwMjMiCiAgICBjb3VudDogMjAK"
+                        },
+                        {
+                          "buffer": "WzE1OjM2OjI5LjE5MF0gG1szMm1JTkZPG1szOW06IBtbMzZtQVBJIHJlcXVlc3RzIGludGVyY2VwdGVkG1szOW0KICAgIGludGVyY2VwdGVkQ291bnQ6IDY0Cg=="
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-08T10:06:07.673Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "af27a8f3cf056efc3e96-e5cae90e0d7449b191ea",
+              "file": "api/network-intercept.spec.ts",
+              "line": 10,
+              "column": 3
+            },
+            {
+              "title": "Mock API response with custom data",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 5,
+                      "parallelIndex": 5,
+                      "status": "passed",
+                      "duration": 1221,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "buffer": "WzE1OjM2OjA3LjcwOF0gG1szMm1JTkZPG1szOW06IBtbMzZtU2VhcmNoIEFQSSB2YWxpZGF0ZWQbWzM5bQogICAgcXVlcnk6ICJBdmF0YXIiCiAgICByZXN1bHRzQ291bnQ6IDIwCg=="
+                        },
+                        {
+                          "buffer": "WzE1OjM2OjA4LjgxMF0gG1szMm1JTkZPG1szOW06IBtbMzZtTW9jayByZXNwb25zZSBpbmplY3RlZBtbMzltCiAgICBtb2NrVGl0bGU6ICJUZXN0IE1vdmllIgo="
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-08T10:06:07.759Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "af27a8f3cf056efc3e96-d39fa3f325b3acbafe40",
+              "file": "api/network-intercept.spec.ts",
+              "line": 81,
+              "column": 3
+            },
+            {
+              "title": "Simulate API failure and validate error handling",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 3,
+                      "status": "passed",
+                      "duration": 5826,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "buffer": "WzE1OjM2OjA3Ljc0MF0gG1szMm1JTkZPG1szOW06IBtbMzZtUmF0aW5nIGZpbHRlciBhcHBsaWVkG1szOW0KICAgIG1pblJhdGluZzogNwogICAgY291bnQ6IDIwCg=="
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-08T10:06:07.828Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "af27a8f3cf056efc3e96-10b1a7bf9f58e0b00317",
+              "file": "api/network-intercept.spec.ts",
+              "line": 112,
+              "column": 3
+            },
+            {
+              "title": "Measure API response time",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 1482,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "buffer": "WzE1OjM2OjA3Ljc4MF0gG1szMm1JTkZPG1szOW06IBtbMzZtR2VucmUgZmlsdGVyIGFwcGxpZWQbWzM5bQogICAgZ2VucmU6IDI4CiAgICBjb3VudDogMjAK"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-08T10:06:07.912Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "af27a8f3cf056efc3e96-1a38261ee352489ea217",
+              "file": "api/network-intercept.spec.ts",
+              "line": 135,
+              "column": 3
+            },
+            {
+              "title": "Validate request headers contain API key",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 6,
+                      "parallelIndex": 6,
+                      "status": "passed",
+                      "duration": 16000,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-08T10:06:08.044Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "af27a8f3cf056efc3e96-9677c9300950fc8f89b8",
+              "file": "api/network-intercept.spec.ts",
+              "line": 155,
+              "column": 3
+            },
+            {
+              "title": "Intercept search API and validate query parameters",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 4,
+                      "parallelIndex": 4,
+                      "status": "passed",
+                      "duration": 2978,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-08T10:06:08.190Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "af27a8f3cf056efc3e96-50d6b9ca8f5b919f670a",
+              "file": "api/network-intercept.spec.ts",
+              "line": 171,
+              "column": 3
+            },
+            {
+              "title": "Monitor network traffic for pagination",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 13456,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "buffer": "WzE1OjM2OjIxLjU3OF0gG1szM21XQVJOG1szOW06IBtbMzZtTm8gcGFnaW5hdGlvbiBjb250cm9scyB2aXNpYmxlG1szOW0K"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-08T10:06:08.504Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "af27a8f3cf056efc3e96-69e3128a8dfc6a0565b0",
+              "file": "api/network-intercept.spec.ts",
+              "line": 192,
+              "column": 3
+            },
+            {
+              "title": "Block third-party requests to improve test speed",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 5,
+                      "parallelIndex": 5,
+                      "status": "passed",
+                      "duration": 1831,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-08T10:06:09.190Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "af27a8f3cf056efc3e96-771b3671047d6161590c",
+              "file": "api/network-intercept.spec.ts",
+              "line": 233,
+              "column": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "e2e\\filters.spec.ts",
+      "file": "e2e/filters.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Type filter toggles between Movie and TV",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 33300,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "buffer": "WzE1OjM2OjA5LjE0NF0gG1szMm1JTkZPG1szOW06IBtbMzZtQVBJIHBlcmZvcm1hbmNlIG1lYXN1cmVkG1szOW0KICAgIGF2Z1Jlc3BvbnNlVGltZTogNDUxCiAgICBjYWxsQ291bnQ6IDEK"
+                    },
+                    {
+                      "buffer": "WzE1OjM2OjI2LjI1NV0gG1szM21XQVJOG1szOW06IBtbMzZtVHlwZSBmaWx0ZXIgaW50ZXJhY3Rpb24gZmFpbGVkOyBjb250aW51aW5nG1szOW0KICAgIGVycjogewogICAgICAidHlwZSI6ICJUaW1lb3V0RXJyb3IiLAogICAgICAibWVzc2FnZSI6ICJsb2NhdG9yLmNsaWNrOiBUaW1lb3V0IDE1MDAwbXMgZXhjZWVkZWQuXG5DYWxsIGxvZzpcblx1MDAxYlsybSAgLSB3YWl0aW5nIGZvciBnZXRCeVJvbGUoJ2NvbWJvYm94JywgeyBuYW1lOiAvdHlwZS9pIH0pXHUwMDFiWzIybVxuIiwKICAgICAgInN0YWNrIjoKICAgICAgICAgIGxvY2F0b3IuY2xpY2s6IFRpbWVvdXQgMTUwMDBtcyBleGNlZWRlZC4KICAgICAgICAgIENhbGwgbG9nOgogICAgICAgICAgG1sybSAgLSB3YWl0aW5nIGZvciBnZXRCeVJvbGUoJ2NvbWJvYm94JywgeyBuYW1lOiAvdHlwZS9pIH0pG1syMm0KICAgICAgICAgIAogICAgICAgICAgICAgIGF0IEhvbWVQYWdlLnNlbGVjdFR5cGUgKEM6XFVzZXJzXHZpa3JhXE9uZURyaXZlXERlc2t0b3BcUlJfUHJvamVjdFxzcmNccGFnZXNcaG9tZS5wYWdlLnRzOjUwOjI5KQogICAgICAgICAgICAgIGF0IEM6XFVzZXJzXHZpa3JhXE9uZURyaXZlXERlc2t0b3BcUlJfUHJvamVjdFx0ZXN0c1xlMmVcZmlsdGVycy5zcGVjLnRzOjEyOjE0CiAgICAgICJuYW1lIjogIlRpbWVvdXRFcnJvciIKICAgIH0K"
+                    },
+                    {
+                      "buffer": "WzE1OjM2OjQxLjI3OF0gG1szM21XQVJOG1szOW06IBtbMzZtVHlwZSBmaWx0ZXIgaW50ZXJhY3Rpb24gZmFpbGVkOyBjb250aW51aW5nG1szOW0KICAgIGVycjogewogICAgICAidHlwZSI6ICJUaW1lb3V0RXJyb3IiLAogICAgICAibWVzc2FnZSI6ICJsb2NhdG9yLmNsaWNrOiBUaW1lb3V0IDE1MDAwbXMgZXhjZWVkZWQuXG5DYWxsIGxvZzpcblx1MDAxYlsybSAgLSB3YWl0aW5nIGZvciBnZXRCeVJvbGUoJ2NvbWJvYm94JywgeyBuYW1lOiAvdHlwZS9pIH0pXHUwMDFiWzIybVxuIiwKICAgICAgInN0YWNrIjoKICAgICAgICAgIGxvY2F0b3IuY2xpY2s6IFRpbWVvdXQgMTUwMDBtcyBleGNlZWRlZC4KICAgICAgICAgIENhbGwgbG9nOgogICAgICAgICAgG1sybSAgLSB3YWl0aW5nIGZvciBnZXRCeVJvbGUoJ2NvbWJvYm94JywgeyBuYW1lOiAvdHlwZS9pIH0pG1syMm0KICAgICAgICAgIAogICAgICAgICAgICAgIGF0IEhvbWVQYWdlLnNlbGVjdFR5cGUgKEM6XFVzZXJzXHZpa3JhXE9uZURyaXZlXERlc2t0b3BcUlJfUHJvamVjdFxzcmNccGFnZXNcaG9tZS5wYWdlLnRzOjUwOjI5KQogICAgICAgICAgICAgIGF0IEM6XFVzZXJzXHZpa3JhXE9uZURyaXZlXERlc2t0b3BcUlJfUHJvamVjdFx0ZXN0c1xlMmVcZmlsdGVycy5zcGVjLnRzOjEzOjE0CiAgICAgICJuYW1lIjogIlRpbWVvdXRFcnJvciIKICAgIH0K"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-01-08T10:06:09.680Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "65a81f376302f96e8109-7aeaafd048046970f54e",
+          "file": "e2e/filters.spec.ts",
+          "line": 11,
+          "column": 1
+        },
+        {
+          "title": "Genre filter limits results",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 5,
+                  "parallelIndex": 5,
+                  "status": "passed",
+                  "duration": 17246,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "buffer": "WzE1OjM2OjEwLjc2NF0gG1szMm1JTkZPG1szOW06IBtbMzZtVGhpcmQtcGFydHkgcmVxdWVzdHMgYmxvY2tlZCBmb3IgZmFzdGVyIHRlc3QgZXhlY3V0aW9uG1szOW0K"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-01-08T10:06:11.088Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "65a81f376302f96e8109-263829fc116eb57e0b45",
+          "file": "e2e/filters.spec.ts",
+          "line": 17,
+          "column": 1
+        },
+        {
+          "title": "Year range narrows results",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 4,
+                  "status": "passed",
+                  "duration": 17633,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "buffer": "WzE1OjM2OjExLjE3OF0gG1szMm1JTkZPG1szOW06IBtbMzZtU2VhcmNoIHF1ZXJ5IHZhbGlkYXRlZBtbMzltCiAgICBzZWFyY2hRdWVyeTogIkluY2VwdGlvbiIK"
+                    },
+                    {
+                      "buffer": "WzE1OjM2OjI4LjIyNl0gG1szM21XQVJOG1szOW06IBtbMzZtWWVhciByYW5nZSBpbnRlcmFjdGlvbiBmYWlsZWQ7IGNvbnRpbnVpbmcbWzM5bQogICAgZXJyOiB7CiAgICAgICJ0eXBlIjogIlRpbWVvdXRFcnJvciIsCiAgICAgICJtZXNzYWdlIjogImxvY2F0b3IuZmlsbDogVGltZW91dCAxNTAwMG1zIGV4Y2VlZGVkLlxuQ2FsbCBsb2c6XG5cdTAwMWJbMm0gIC0gd2FpdGluZyBmb3IgZ2V0QnlSb2xlKCdzcGluYnV0dG9uJykuZmlyc3QoKVx1MDAxYlsyMm1cbiIsCiAgICAgICJzdGFjayI6CiAgICAgICAgICBsb2NhdG9yLmZpbGw6IFRpbWVvdXQgMTUwMDBtcyBleGNlZWRlZC4KICAgICAgICAgIENhbGwgbG9nOgogICAgICAgICAgG1sybSAgLSB3YWl0aW5nIGZvciBnZXRCeVJvbGUoJ3NwaW5idXR0b24nKS5maXJzdCgpG1syMm0KICAgICAgICAgIAogICAgICAgICAgICAgIGF0IEhvbWVQYWdlLnNldFllYXJSYW5nZSAoQzpcVXNlcnNcdmlrcmFcT25lRHJpdmVcRGVza3RvcFxSUl9Qcm9qZWN0XHNyY1xwYWdlc1xob21lLnBhZ2UudHM6NzY6MjMpCiAgICAgICAgICAgICAgYXQgQzpcVXNlcnNcdmlrcmFcT25lRHJpdmVcRGVza3RvcFxSUl9Qcm9qZWN0XHRlc3RzXGUyZVxmaWx0ZXJzLnNwZWMudHM6MjE6MTQKICAgICAgIm5hbWUiOiAiVGltZW91dEVycm9yIgogICAgfQo="
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-01-08T10:06:11.445Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "65a81f376302f96e8109-a3370d9cd5bbfd840ed0",
+          "file": "e2e/filters.spec.ts",
+          "line": 22,
+          "column": 1
+        },
+        {
+          "title": "Rating threshold enforces minimum rating",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 3,
+                  "status": "passed",
+                  "duration": 17225,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "buffer": "WzE1OjM2OjEzLjUzM10gG1szMm1JTkZPG1szOW06IBtbMzZtQVBJIGZhaWx1cmUgc2NlbmFyaW8gdGVzdGVkG1szOW0KICAgIGVycm9yTWVzc2FnZXNGb3VuZDogMAo="
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-01-08T10:06:13.898Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "65a81f376302f96e8109-e48a4a0b6daf5bb04318",
+          "file": "e2e/filters.spec.ts",
+          "line": 27,
+          "column": 1
+        },
+        {
+          "title": "Title search returns matching items",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3184,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-01-08T10:06:22.203Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "65a81f376302f96e8109-37d7e8dc9d6719b6301d",
+          "file": "e2e/filters.spec.ts",
+          "line": 32,
+          "column": 1
+        },
+        {
+          "title": "Category quick links trigger correct API",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 6,
+                  "parallelIndex": 6,
+                  "status": "passed",
+                  "duration": 42753,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "buffer": "WzE1OjM2OjIzLjY3N10gG1szMm1JTkZPG1szOW06IBtbMzZtQVBJIGtleSB2YWxpZGF0aW9uIHBhc3NlZBtbMzltCg=="
+                    },
+                    {
+                      "buffer": "WzE1OjM2OjI1LjU4Ml0gG1szMm1JTkZPG1szOW06IBtbMzZtQXBwbHlpbmcgY2F0ZWdvcnkgZmlsdGVyG1szOW0KICAgIGNhdGVnb3J5OiAiUG9wdWxhciIK"
+                    },
+                    {
+                      "buffer": "WzE1OjM2OjQ1Ljc0OF0gG1szMm1JTkZPG1szOW06IBtbMzZtQXBwbHlpbmcgY2F0ZWdvcnkgZmlsdGVyG1szOW0KICAgIGNhdGVnb3J5OiAiVHJlbmQiCg=="
+                    },
+                    {
+                      "buffer": "WzE1OjM2OjQ2LjEyNl0gG1szMm1JTkZPG1szOW06IBtbMzZtQXBwbHlpbmcgY2F0ZWdvcnkgZmlsdGVyG1szOW0KICAgIGNhdGVnb3J5OiAiTmV3ZXN0Igo="
+                    },
+                    {
+                      "buffer": "WzE1OjM3OjA2LjIxNF0gG1szMm1JTkZPG1szOW06IBtbMzZtQXBwbHlpbmcgY2F0ZWdvcnkgZmlsdGVyG1szOW0KICAgIGNhdGVnb3J5OiAiVG9wIHJhdGVkIgo="
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-01-08T10:06:24.284Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "65a81f376302f96e8109-7f8561fdd820a072c6a6",
+          "file": "e2e/filters.spec.ts",
+          "line": 37,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "e2e\\negative.spec.ts",
+      "file": "e2e/negative.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Broken slug renders gracefully",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 26892,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "buffer": "WzE1OjM2OjI1LjI1M10gG1szMm1JTkZPG1szOW06IBtbMzZtVGl0bGUgc2VhcmNoIGNvbXBsZXRlG1szOW0KICAgIGFwaTogewogICAgICAidXJsIjogImh0dHBzOi8vYXBpLnRoZW1vdmllZGIub3JnLzMvc2VhcmNoL21vdmllP3F1ZXJ5PUF2YXRhciZwYWdlPTEmYXBpX2tleT1hZGQ0OTRlOTY4MDhjNTViM2VlN2Y5NDBjOWQ1ZTViNiIsCiAgICAgICJzdGF0dXMiOiAyMDAsCiAgICAgICJvayI6IHRydWUsCiAgICAgICJyZXF1ZXN0TWV0aG9kIjogIkdFVCIsCiAgICAgICJyZXF1ZXN0UG9zdERhdGEiOiBudWxsLAogICAgICAicmVzcG9uc2VQcmV2aWV3IjogIntcInBhZ2VcIjoxLFwicmVzdWx0c1wiOlt7XCJhZHVsdFwiOmZhbHNlLFwiYmFja2Ryb3BfcGF0aFwiOlwiL3ZMNUxSNldkeFdQakxQRlJMZTEzM2pYV3NoNS5qcGdcIixcImdlbnJlX2lkc1wiOlsyOCwxMiwxNCw4NzhdLFwiaWRcIjoxOTk5NSxcIm9yaWdpbmFsX2xhbmd1YWdlXCI6XCJlblwiLFwib3JpZ2luYWxfdGl0bGVcIjpcIkF2YXRhclwiLFwib3ZlcnZpZXdcIjpcIkluIHRoZSAyMm5kIGNlbnR1cnksIGEgcGFyYXBsZWdpYyBNYXJpbmUgaXMgZGlzcGF0Y2hlZCB0byB0aGUgbW9vbiBQYW5kb3JhIG9uIGEgdW5pcXVlIG1pc3Npb24sIGJ1dCBiZWNvbWVzIHRvcm4gYmV0d2VlbiBmb2xsb3dpbmcgb3JkZXJzIGFuZCBwcm90ZWN0aW5nIGFuIGFsaWVuIGNpdmlsaXphdGlvbi5cIixcInBvcHVsYXJpdHlcIjo5Ni41MTQ4LFwicG9zdGVyX3BhdGhcIjpcIi9nS1k2cTdTakNrQVU2RnF2cVd5YkRZZ1VLSUYuanBnXCIsXCJyZWxlYXNlX2RhdGVcIjpcIjIwMDktMTItMTZcIixcInRpdGxlXCI6XCJBdmF0YXJcIixcInZpZGVvXCI6ZmFsc2UsXCJ2b3RlX2F2ZXJhZ2VcIjo3LjU5OSxcInZvdGVfY291bnRcIjozMzE5N30se1wiYWR1bHRcIjpmYWxzZSxcImJhY2tkcm9wX3BhdGhcIjpudWxsLFwiZ2VucmVfaWRzXCI6WzE4XSxcImlkXCI6MTA5Njk3OCxcIm9yaWdpbmFsX2xhbmd1YWdlXCI6XCJlc1wiLFwib3JpZ2luYWxfdGl0bGVcIjpcIkF2YXRhclwiLFwib3ZlcnZpZXdcIjpcIlRlbnNpb24gbW91bnRzIGJldHdlZW4gYSBxdWFkcmFwbGVnaWMgbWFuIGFuZCBoaXMgd2lmZSBhcyBzaGUgcHJlcGFyZXMgYSBiYXRoIGZvciBoaW0uXCIsXCJwb3B1bGFyaXR5XCI6Mi4zNTU0LFwicG9zdGVyX3BhdGhcIjpcIi9nbW5EMmUxUnZNZENsOUQxcnNERVFhUWxKeEsuanBnXCIsXCJyZWxlYXNlX2RhdGVcIjpcIjIwMDYtMDQtMTFcIixcInRpdGxlXCI6XCJBdmF0YXJcIixcInZpZGVvXCI6ZmFsc2UsXCJ2b3RlX2F2ZXJhZ2VcIjo1LjksXCJ2b3RlX2NvdW50XCI6NTl9LHtcImFkdWx0XCI6ZmFsc2UsXCJiYWNrZHJvcF9wYXRoXCI6XCIvbWxqblp5azhnd08yWUg5RURDNVNNeTRYZ2VQLmpwZ1wiLFwiZ2VucmVfaWRzXCI6WzE4LDE0IgogICAgfQo="
+                    },
+                    {
+                      "buffer": "WzE1OjM2OjUwLjc4M10gG1szM21XQVJOG1szOW06IBtbMzZtU2x1ZyBsb2FkIGRpZCBub3QgcmVuZGVyIGNhcmRzL3NlYXJjaDsgdHJlYXRpbmcgYXMga25vd24gaXNzdWUbWzM5bQo="
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-01-08T10:06:25.418Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "da750b9b3ad5d5c9f0d2-77014e5950ce88d9cd3b",
+          "file": "e2e/negative.spec.ts",
+          "line": 3,
+          "column": 1
+        },
+        {
+          "title": "Pagination failure on trailing pages is handled",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 5,
+                  "parallelIndex": 5,
+                  "status": "passed",
+                  "duration": 23154,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "buffer": "WzE1OjM2OjI3LjU5NF0gG1szM21XQVJOG1szOW06IBtbMzZtR2VucmUgZmlsdGVyIGludGVyYWN0aW9uIGZhaWxlZDsgY29udGludWluZxtbMzltCiAgICBlcnI6IHsKICAgICAgInR5cGUiOiAiVGltZW91dEVycm9yIiwKICAgICAgIm1lc3NhZ2UiOiAibG9jYXRvci5jbGljazogVGltZW91dCAxNTAwMG1zIGV4Y2VlZGVkLlxuQ2FsbCBsb2c6XG5cdTAwMWJbMm0gIC0gd2FpdGluZyBmb3IgZ2V0QnlSb2xlKCdjb21ib2JveCcsIHsgbmFtZTogL2dlbnJlL2kgfSlcdTAwMWJbMjJtXG4iLAogICAgICAic3RhY2siOgogICAgICAgICAgbG9jYXRvci5jbGljazogVGltZW91dCAxNTAwMG1zIGV4Y2VlZGVkLgogICAgICAgICAgQ2FsbCBsb2c6CiAgICAgICAgICAbWzJtICAtIHdhaXRpbmcgZm9yIGdldEJ5Um9sZSgnY29tYm9ib3gnLCB7IG5hbWU6IC9nZW5yZS9pIH0pG1syMm0KICAgICAgICAgIAogICAgICAgICAgICAgIGF0IEhvbWVQYWdlLnNlbGVjdEdlbnJlIChDOlxVc2Vyc1x2aWtyYVxPbmVEcml2ZVxEZXNrdG9wXFJSX1Byb2plY3Rcc3JjXHBhZ2VzXGhvbWUucGFnZS50czo2MjozMCkKICAgICAgICAgICAgICBhdCBDOlxVc2Vyc1x2aWtyYVxPbmVEcml2ZVxEZXNrdG9wXFJSX1Byb2plY3RcdGVzdHNcZTJlXGZpbHRlcnMuc3BlYy50czoxNzoxNAogICAgICAibmFtZSI6ICJUaW1lb3V0RXJyb3IiCiAgICB9Cg=="
+                    },
+                    {
+                      "buffer": "WzE1OjM2OjI5Ljc1N10gG1szMm1JTkZPG1szOW06IBtbMzZtUmVhY2hlZCBsYXN0IHZpc2libGUgcGFnZSBsaW5rLCBhdHRlbXB0aW5nIE5leHQbWzM5bQo="
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-01-08T10:06:28.376Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "da750b9b3ad5d5c9f0d2-adfa6df2f1810381fe90",
+          "file": "e2e/negative.spec.ts",
+          "line": 25,
+          "column": 1
+        },
+        {
+          "title": "Invalid filter combo shows empty state, not crash",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [
+                {
+                  "type": "skip",
+                  "location": {
+                    "file": "C:\\Users\\vikra\\OneDrive\\Desktop\\RR_Project\\tests\\e2e\\negative.spec.ts",
+                    "line": 44,
+                    "column": 6
+                  }
+                }
+              ],
+              "expectedStatus": "skipped",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": -1,
+                  "parallelIndex": -1,
+                  "status": "skipped",
+                  "duration": 0,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-01-08T10:06:29.102Z",
+                  "annotations": [
+                    {
+                      "type": "skip",
+                      "location": {
+                        "file": "C:\\Users\\vikra\\OneDrive\\Desktop\\RR_Project\\tests\\e2e\\negative.spec.ts",
+                        "line": 44,
+                        "column": 6
+                      }
+                    }
+                  ],
+                  "attachments": []
+                }
+              ],
+              "status": "skipped"
+            }
+          ],
+          "id": "da750b9b3ad5d5c9f0d2-cf7ca64961f419b50738",
+          "file": "e2e/negative.spec.ts",
+          "line": 44,
+          "column": 6
+        }
+      ]
+    },
+    {
+      "title": "e2e\\pagination.spec.ts",
+      "file": "e2e/pagination.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Next/Previous changes page and content",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [
+                {
+                  "type": "skip",
+                  "location": {
+                    "file": "C:\\Users\\vikra\\OneDrive\\Desktop\\RR_Project\\tests\\e2e\\pagination.spec.ts",
+                    "line": 10,
+                    "column": 6
+                  }
+                }
+              ],
+              "expectedStatus": "skipped",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": -1,
+                  "parallelIndex": -1,
+                  "status": "skipped",
+                  "duration": 0,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-01-08T10:06:29.107Z",
+                  "annotations": [
+                    {
+                      "type": "skip",
+                      "location": {
+                        "file": "C:\\Users\\vikra\\OneDrive\\Desktop\\RR_Project\\tests\\e2e\\pagination.spec.ts",
+                        "line": 10,
+                        "column": 6
+                      }
+                    }
+                  ],
+                  "attachments": []
+                }
+              ],
+              "status": "skipped"
+            }
+          ],
+          "id": "66665d90cfd0a789893f-42a7c9078d06f555c39a",
+          "file": "e2e/pagination.spec.ts",
+          "line": 10,
+          "column": 6
+        },
+        {
+          "title": "Direct page jump works for numbered pagination",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 4,
+                  "status": "passed",
+                  "duration": 22680,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "buffer": "WzE1OjM2OjUwLjYxNV0gG1szMm1JTkZPG1szOW06IBtbMzZtRGlyZWN0IHBhZ2UganVtcCBzdWNjZWVkZWQbWzM5bQo="
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-01-08T10:06:29.129Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "66665d90cfd0a789893f-c5954fe064cf3c62634d",
+          "file": "e2e/pagination.spec.ts",
+          "line": 36,
+          "column": 1
+        },
+        {
+          "title": "Boundary handling near last pages (known risk)",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 12551,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "buffer": "WzE1OjM2OjQyLjE2OV0gG1szM21XQVJOG1szOW06IBtbMzZtUGFnaW5hdGlvbiBuZWFyIGJvdW5kYXJ5IGZhaWxlZCBhcyBleHBlY3RlZCAoa25vd24gaXNzdWUpG1szOW0KICAgIGVycjogewogICAgICAidHlwZSI6ICJUaW1lb3V0RXJyb3IiLAogICAgICAibWVzc2FnZSI6ICJsb2NhdG9yLmNsaWNrOiBUaW1lb3V0IDEwMDAwbXMgZXhjZWVkZWQuXG5DYWxsIGxvZzpcblx1MDAxYlsybSAgLSB3YWl0aW5nIGZvciBnZXRCeVJvbGUoJ2xpbmsnLCB7IG5hbWU6IC9eNSQvIH0pLm9yKGdldEJ5VGV4dCgnNScsIHsgZXhhY3Q6IHRydWUgfSkpXHUwMDFiWzIybVxuIiwKICAgICAgInN0YWNrIjoKICAgICAgICAgIGxvY2F0b3IuY2xpY2s6IFRpbWVvdXQgMTAwMDBtcyBleGNlZWRlZC4KICAgICAgICAgIENhbGwgbG9nOgogICAgICAgICAgG1sybSAgLSB3YWl0aW5nIGZvciBnZXRCeVJvbGUoJ2xpbmsnLCB7IG5hbWU6IC9eNSQvIH0pLm9yKGdldEJ5VGV4dCgnNScsIHsgZXhhY3Q6IHRydWUgfSkpG1syMm0KICAgICAgICAgIAogICAgICAgICAgICAgIGF0IEM6XFVzZXJzXHZpa3JhXE9uZURyaXZlXERlc2t0b3BcUlJfUHJvamVjdFx0ZXN0c1xlMmVccGFnaW5hdGlvbi5zcGVjLnRzOjQ4OjIzCiAgICAgICJuYW1lIjogIlRpbWVvdXRFcnJvciIKICAgIH0K"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-01-08T10:06:30.348Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "66665d90cfd0a789893f-c2787c281a620908cde8",
+          "file": "e2e/pagination.spec.ts",
+          "line": 57,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "ui\\components.ui.spec.ts",
+      "file": "ui/components.ui.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Filter Components UI",
+          "file": "ui/components.ui.spec.ts",
+          "line": 9,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Search box is visible and accepts input",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 3,
+                      "status": "passed",
+                      "duration": 1829,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "buffer": "WzE1OjM2OjMwLjgxNV0gG1szM21XQVJOG1szOW06IBtbMzZtUmF0aW5nIHNsaWRlciBpbnRlcmFjdGlvbiBmYWlsZWQ7IGNvbnRpbnVpbmcbWzM5bQogICAgZXJyOiB7CiAgICAgICJ0eXBlIjogIlRpbWVvdXRFcnJvciIsCiAgICAgICJtZXNzYWdlIjogImxvY2F0b3IuZmlsbDogVGltZW91dCAxNTAwMG1zIGV4Y2VlZGVkLlxuQ2FsbCBsb2c6XG5cdTAwMWJbMm0gIC0gd2FpdGluZyBmb3IgZ2V0QnlSb2xlKCdzbGlkZXInKVx1MDAxYlsyMm1cbiIsCiAgICAgICJzdGFjayI6CiAgICAgICAgICBsb2NhdG9yLmZpbGw6IFRpbWVvdXQgMTUwMDBtcyBleGNlZWRlZC4KICAgICAgICAgIENhbGwgbG9nOgogICAgICAgICAgG1sybSAgLSB3YWl0aW5nIGZvciBnZXRCeVJvbGUoJ3NsaWRlcicpG1syMm0KICAgICAgICAgIAogICAgICAgICAgICAgIGF0IEhvbWVQYWdlLnNldFJhdGluZyAoQzpcVXNlcnNcdmlrcmFcT25lRHJpdmVcRGVza3RvcFxSUl9Qcm9qZWN0XHNyY1xwYWdlc1xob21lLnBhZ2UudHM6ODk6MzEpCiAgICAgICAgICAgICAgYXQgQzpcVXNlcnNcdmlrcmFcT25lRHJpdmVcRGVza3RvcFxSUl9Qcm9qZWN0XHRlc3RzXGUyZVxmaWx0ZXJzLnNwZWMudHM6MjU6MTQKICAgICAgIm5hbWUiOiAiVGltZW91dEVycm9yIgogICAgfQo="
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-08T10:06:31.158Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "25cbcb23b57a6e910591-ae1b52e7c41b80a23ec7",
+              "file": "ui/components.ui.spec.ts",
+              "line": 15,
+              "column": 3
+            },
+            {
+              "title": "Movie cards display correctly",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 3,
+                      "status": "passed",
+                      "duration": 1965,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-08T10:06:33.011Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "25cbcb23b57a6e910591-ac6fde0bd838dc6335c9",
+              "file": "ui/components.ui.spec.ts",
+              "line": 24,
+              "column": 3
+            },
+            {
+              "title": "Pagination controls are visible",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 3,
+                      "status": "passed",
+                      "duration": 2039,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-08T10:06:34.996Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "25cbcb23b57a6e910591-9e0d2265e21f861433c9",
+              "file": "ui/components.ui.spec.ts",
+              "line": 36,
+              "column": 3
+            },
+            {
+              "title": "Category filter buttons are interactive",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 3,
+                      "status": "passed",
+                      "duration": 1753,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-08T10:06:37.050Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "25cbcb23b57a6e910591-24404b0d2b20a42c8eeb",
+              "file": "ui/components.ui.spec.ts",
+              "line": 44,
+              "column": 3
+            }
+          ]
+        },
+        {
+          "title": "UI Responsiveness",
+          "file": "ui/components.ui.spec.ts",
+          "line": 60,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Page loads within acceptable time",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 3,
+                      "status": "passed",
+                      "duration": 2995,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-08T10:06:38.822Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "25cbcb23b57a6e910591-33905c24b9db3e2cc2d4",
+              "file": "ui/components.ui.spec.ts",
+              "line": 66,
+              "column": 3
+            },
+            {
+              "title": "Images lazy load correctly",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 3,
+                      "status": "passed",
+                      "duration": 1698,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-08T10:06:41.832Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "25cbcb23b57a6e910591-518c715c5803df502a58",
+              "file": "ui/components.ui.spec.ts",
+              "line": 75,
+              "column": 3
+            },
+            {
+              "title": "No console errors on initial load",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 3949,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-08T10:06:42.936Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "25cbcb23b57a6e910591-834dd4d4361de1ab5e54",
+              "file": "ui/components.ui.spec.ts",
+              "line": 86,
+              "column": 3
+            }
+          ]
+        },
+        {
+          "title": "UI Accessibility",
+          "file": "ui/components.ui.spec.ts",
+          "line": 103,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Search input has proper accessibility attributes",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 1743,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-08T10:06:43.016Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "25cbcb23b57a6e910591-2966223a84dd8aa9b5ac",
+              "file": "ui/components.ui.spec.ts",
+              "line": 109,
+              "column": 3
+            },
+            {
+              "title": "Images have alt text",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 3,
+                      "status": "passed",
+                      "duration": 1450,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-08T10:06:43.546Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "25cbcb23b57a6e910591-22180f73f0c6e9f37b0f",
+              "file": "ui/components.ui.spec.ts",
+              "line": 115,
+              "column": 3
+            },
+            {
+              "title": "Keyboard navigation works for search",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 1825,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-08T10:06:44.776Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "25cbcb23b57a6e910591-af8de6124294c6f1bcee",
+              "file": "ui/components.ui.spec.ts",
+              "line": 122,
+              "column": 3
+            }
+          ]
+        },
+        {
+          "title": "UI State Management",
+          "file": "ui/components.ui.spec.ts",
+          "line": 133,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Search input clears correctly",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 3,
+                      "status": "passed",
+                      "duration": 2204,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-08T10:06:45.017Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "25cbcb23b57a6e910591-772bde68ce19c21bc702",
+              "file": "ui/components.ui.spec.ts",
+              "line": 139,
+              "column": 3
+            },
+            {
+              "title": "Cards update after filter interaction",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 4247,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-08T10:06:46.627Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "25cbcb23b57a6e910591-d35a49193d176117ce87",
+              "file": "ui/components.ui.spec.ts",
+              "line": 148,
+              "column": 3
+            },
+            {
+              "title": "Loading states are handled gracefully",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 2020,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-08T10:06:46.910Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "25cbcb23b57a6e910591-d26fa3402464e03511a8",
+              "file": "ui/components.ui.spec.ts",
+              "line": 168,
+              "column": 3
+            }
+          ]
+        },
+        {
+          "title": "UI Visual Validation",
+          "file": "ui/components.ui.spec.ts",
+          "line": 180,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Card grid layout is consistent",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 3,
+                      "status": "passed",
+                      "duration": 1463,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-08T10:06:47.245Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "25cbcb23b57a6e910591-717bce201754c49efb7d",
+              "file": "ui/components.ui.spec.ts",
+              "line": 186,
+              "column": 3
+            },
+            {
+              "title": "Page maintains scroll position",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 3,
+                      "status": "passed",
+                      "duration": 1272,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-08T10:06:48.728Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "25cbcb23b57a6e910591-90c4720a0df80bdb81d0",
+              "file": "ui/components.ui.spec.ts",
+              "line": 198,
+              "column": 3
+            },
+            {
+              "title": "Viewport adjusts to content",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 1752,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-08T10:06:48.953Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "25cbcb23b57a6e910591-0701e5cf29445cd97430",
+              "file": "ui/components.ui.spec.ts",
+              "line": 214,
+              "column": 3
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-01-08T10:06:04.894Z",
+    "duration": 63058.494,
+    "expected": 42,
+    "skipped": 2,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

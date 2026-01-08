@@ -1,6 +1,5 @@
 node_modules/
 playwright-report/
-reports/
 logs/
 dist/
 trace.zip
