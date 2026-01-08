@@ -1,0 +1,24 @@
+{
+  "name": "tmdb-discover-qa",
+  "version": "1.0.0",
+  "description": "Playwright-based QA automation suite for TMDB Discover demo",
+  "type": "module",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "report": "playwright show-report reports/html",
+    "lint": "tsc --noEmit",
+    "posttest": "node scripts/generate-summary-report.cjs"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.41.2",
+    "typescript": "^5.3.3",
+    "ts-node": "^10.9.2"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "pino": "^8.16.0",
+    "pino-pretty": "^10.3.0"
+  }
+}
